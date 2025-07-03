@@ -29,7 +29,7 @@ function App() {
      }
   return (
     <Stack width={'40%'} padding={'10px'}>
-      <h1>Dicitionary App</h1>
+      <h1>Dictionary App</h1>
       <Box>
       <input type="text" placeholder="Search for a word..." style={{padding:"5px"}} onChange={(e)=>handleChange(e)}/>
       <button onClick={handleClick}>Search</button>
